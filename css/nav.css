@@ -1,28 +1,23 @@
 
-#nav-title {
-    /*display: inline-block;*/
-    /*vertical-align:middle;*/
-    /*position:absolute;*/
-    padding-top:13px;
-    width: 34px;
-    height: 34px;
-    padding-left: 180px;
-}
+
 .nav{
     height: 60px;
     line-height: 60px;
     width: auto;
     background-color: #24292e;
+    margin-top:0;
+    padding-top: 0;
 }
 #nav-input{
-    position: absolute;
+    /*position: absolute;*/
     background-color: #3f4448;
     padding-left: 5px;
     padding-top: 8px;
     padding-bottom: 8px;
-    margin-left: 10px;
-    margin-top:16px;
-    margin-bottom: 13px;
+    /*margin-left: 10px;*/
+    margin-right: 10px;
+    /*margin-top:16px;*/
+    /*margin-bottom: 30%;*/
 
     -webkit-appearance:none;
     -moz-appearance: none;
@@ -38,4 +33,72 @@
 }
 input::-webkit-input-placeholder { /* WebKit browsers*/
     color:#999;font-size:14px;
+}
+nav{
+    position: relative;left:25%;float:left;
+}
+nav>img,input,a{
+    position: relative;left: -18%;
+    /*margin-bottom: -10%;*/
+}
+#nav-title {
+    display: inline-block;
+    vertical-align:middle;
+    /*position:absolute;*/
+    /*padding-top:13px;*/
+    /*padding-bottom: -20%;*/
+    /*margin-top: 10%;*/
+    width: 90%;
+    height: 90%;
+    margin-right: 0;
+    padding-right: 0;
+}
+.nav-title{
+    display: inline-block;
+    width: 4%;
+}
+nav>a{
+    color: #ffffff;
+    text-decoration:none;
+    font-family: 微软雅黑;
+    font-size: smaller;
+    font-weight:bold;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav>a:visited{
+    color: white;
+}
+nav>a:hover{
+    color: #b9b9b9;
+}
+.user-nav{
+    position: absolute;
+    right: 50%;
+    float: left;
+    /*top: 1.5%;*/
+    /*vertical-align: middle;*/
+}
+.user-nav>ul,li{
+    /*display: inline-block;*/
+    position: relative;
+    right: -300%;
+    float: left;
+    list-style:none; /* 去掉ul前面的符号 */
+    margin: 0px; /* 与外界元素的距离为0 */
+    padding: 0px; /* 与内部元素的距离为0 */
+    width: auto; /* 宽度根据元素内容调整 */
+    vertical-align: middle;
+
+
+}
+.user-nav>li{
+    display: inline-block;
+    width: 10%;
+}
+.user-nav>a,img{
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
 }

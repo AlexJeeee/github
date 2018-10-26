@@ -1,4 +1,30 @@
 body{
     margin: 0;
     padding: 0;
+    font:normal 100%;
+}
+.container{
+    height: auto;
+    margin-bottom:10%;
+}
+.avatar{
+    position: absolute;
+    float: top;
+    /*right: 65%;*/
+    margin-left: 20%;
+}
+.u-photo{
+    display: inline-block;
+    width: 230px;
+    height: 230px;
+    /*margin-right: 0;*/
+}
+#avatar{
+    border-radius:10px;
+    margin-top: 10%;
+    width: 230px;
+    height: 230px;
+}
+.name-text{
+
 }

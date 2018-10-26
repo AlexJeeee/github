@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta charset="UTF-8">
     <title>github</title>
     <link rel="shortcut icon" href="GitHub.png" type="image/x-icon">
@@ -8,18 +10,61 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
 <div class="nav">
     <nav>
-        <img id="nav-title" src="imgs/GitHub.png" alt="github">
+        <a class="nav-title" href="https://github.com/"><img id="nav-title"  src="imgs/GitHub.png" alt="github"></a>
         <input type="text" id="nav-input" placeholder="search or jump to...">
-        <a href="https://github.com/pulls" class="nav">Pull requests</a>
-        <a href="https://github.com/issues" class="nav">Issues</a>
-        <a href="https://github.com/marketplace" class="nav">Marketplace</a>
-        <a href="https://github.com/explore" class="nav">Explore</a>
+        <a href="https://github.com/pulls" class="nav-a">Pull requests</a>
+        <a href="https://github.com/issues" class="nav-a">Issues</a>
+        <a href="https://github.com/marketplace" class="nav-a">Marketplace</a>
+        <a href="https://github.com/explore" class="nav-a">Explore</a>
 
 
 
     </nav>
+    <div class="user-nav">
+        <ul class="user-nav-ul">
+            <li class="dropdown">
+                <a aria-label="You have no unread notifications" href="https://github.com/notifications">
+                    <!--<svg class="octicon octicon-bell" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">-->
+                        <!--<path fill-rule="evenodd" d="M13.99 11.991v1H0v-1l.73-.58c.769-.769.809-2.547 1.189-4.416.77-3.767 4.077-4.996 4.077-4.996 0-.55.45-1 .999-1 .55 0 1 .45 1 1 0 0 3.387 1.229 4.156 4.996.38 1.879.42 3.657 1.19 4.417l.659.58h-.01zM6.995 15.99c1.11 0 1.999-.89 1.999-1.999H4.996c0 1.11.89 1.999 1.999 1.999z">-->
+                        <!--</path>-->
+                    <!--</svg>-->
+                    <img src="imgs/Bell.png" alt="notification" class="notification">
+                </a>
+            </li>
+            <li class="dropdown">
+                <a href="#">
+                    <img src="imgs/plus.png" alt="detail" class="detail">
+                </a>
+            </li>
+            <li class="dropdown">
+                <a href="#">
+                    <img src="imgs/user.png" alt="profile" class="profile">
+                </a>
+            </li>
+        </ul>
+    </div>
 </div>
+<div class="container">
+    <div class="avatar">
+        <div class="profile-photo">
+            <a href="https://github.com/account" class="u-photo">
+                <img src="imgs/avatar.jpg" alt="avatar" id="avatar">
+            </a>
+        </div>
+        <div class="name">
+            <h1 class="name-text">User</h1>
+        </div>
+        <div class="bio">
+            <button id="add" class="btn">Add a bio</button>
+        </div>
+
+        <button id="edit" class="btn">Edit profile</button>
+    </div>
+</div>
+<div class="footer"></div>
+
 </body>
 </html>
