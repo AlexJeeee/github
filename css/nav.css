@@ -57,7 +57,7 @@ nav>img,input,a{
     display: inline-block;
     width: 4%;
 }
-nav>a{
+.nav-a:link{
     color: #ffffff;
     text-decoration:none;
     font-family: 微软雅黑;
@@ -67,10 +67,10 @@ nav>a{
     margin-right: 10px;
 }
 
-nav>a:visited{
+.nav-a:visited{
     color: white;
 }
-nav>a:hover{
+.nav-a:hover{
     color: #b9b9b9;
 }
 .user-nav{

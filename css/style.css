@@ -6,16 +6,18 @@ body{
 .container{
     height: auto;
     margin-bottom:10%;
+    margin-top: 20px;
 }
 .avatar{
     position: absolute;
     float: top;
     /*right: 65%;*/
-    margin-left: 20%;
+    margin-left: 10%;
+    margin-right: 10px;
 }
 .profile-photo{
     /*display: inline-block;*/
-    margin-top: 10%;
+    /*margin-top: 10%;*/
     width: 230px;
     height: 230px;
     /*margin-right: 0;*/
@@ -74,3 +76,37 @@ body{
     position: relative;
     float: left;
 }
+.info{
+    margin-left: 5px;
+}
+
+.underlineNav{
+    height: 55px;
+    /*margin-top: 10%;*/
+}
+.underlineNav-item:link{
+    color: #3f4448;
+    font-weight: normal;
+    text-decoration:none;
+    font-family: 微软雅黑;
+    font-size: smaller;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.underlineNav-item:visited{
+    color: #3f4448;
+}
+.uunderlineNav-item:hover{
+    color: #000;
+    border-bottom: solid gray;
+}
+.selected{
+    color: black;
+    border-bottom: solid 2px red;
+}
+
